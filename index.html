@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Calculator</title>
+    <link rel="stylesheet" href="pizza.css">
+
+
+
+</head>
+<body>
+    <h1>Pizza Calculator</h1>
+
+  <fieldset>
+      <label for="pizzas">Number of Pizzas</label>
+      <input type="number" id = pizzas min="0">
+
+      <br>
+      <br>
+
+    <label for="toppings">Number of Toppings</label>
+      <input type="number" id = toppings min="0">
+
+      <br>
+      <br>
+
+    <label for="numPeople">Number of People</label>
+      <input type="number" id = numPeople min="0">
+
+      <br>
+
+</fieldset>
+    <br>
+       <button>Cost Per Person</button>
+         
+        <p class = "output">
+            It will cost $<span id="newTotal"></span> per person.
+        </p>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="pizza.js"></script>
+
+
+</body>
+</html>
